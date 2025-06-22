@@ -14,7 +14,7 @@ type Product = {
 };
 
 export default function ProductSection() {
-  const [products, setProducts] = useState<Product[]>([
+  const [products /* , setProducts */] = useState<Product[]>([
     {
       id: '1',
       title: 'TemplateFlow Wall Canvas',

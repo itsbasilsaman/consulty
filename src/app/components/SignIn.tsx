@@ -84,7 +84,7 @@ const SignInSection = () => {
                     />
                   </div>
                   <p className="body-text-16">
-                    Don't have an Account?{' '}
+                    Don&apos;t have an Account?{' '}
                     <Link href="/sign-up" className="text-link">
                       <span>Sign-Up here</span>!
                     </Link>
@@ -132,6 +132,13 @@ const SignInSection = () => {
           </div>
         </div>
       </div>
+      <p className="text-center text-gray-500 text-sm mt-4">
+        Don&apos;t have an account?{' '}
+        <a href="/sign-up" className="text-primary-600 hover:underline">Sign up</a>
+      </p>
+      <p className="text-xs text-gray-400 mt-4">
+        By signing in, you agree to TaskHub&apos;s Terms of Service and Privacy Policy.
+      </p>
     </section>
   );
 };
