@@ -57,6 +57,7 @@ export default function AppointmentSection() {
       // Reset form status after 3 seconds
       setTimeout(() => setFormStatus('idle'), 3000);
     } catch (error) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       setFormStatus('error');
       setTimeout(() => setFormStatus('idle'), 3000);
     }
