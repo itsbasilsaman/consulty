@@ -36,7 +36,7 @@ const TestimonialSection = () => {
                 </h4>
                 <p className="testimonial-content-para">
                   I can now track my vitals and sleep patterns daily, and Healix has
-                  been a game-changer for me it's helped me build healthier habits! <br />
+                  been a game-changer for me it&apos;s helped me build healthier habits! <br />
                 </p>
               </div>
               <div className="reviewer-info">

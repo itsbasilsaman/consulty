@@ -17,7 +17,7 @@ export default function BenefitsSection() {
             </div>
             <div className="benefits-left-content">
               <p>
-                Healix is designed to help you track and understand your health in real time. Whether it's
+                Healix is designed to help you track and understand your health in real time. Whether it&apos;s
                 monitoring vital signs, activity levels, or health patterns to make informed decisions for a healthier
                 lifestyle.
               </p>

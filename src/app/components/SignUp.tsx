@@ -113,7 +113,7 @@ const SignUpSection = () => {
                     />
                   </div>
                   <p className="body-text-16">
-                    Don't have an Account?{' '}
+                    Don&apos;t have an Account?{' '}
                     <Link href="/sign-in" className="text-link">
                       <span>Sign-In here</span>!
                     </Link>
@@ -131,7 +131,7 @@ const SignUpSection = () => {
           <div data-w-id="4a3ed907-7429-a709-26b6-242b5c064b13" className="form-card">
             <div className="form-card-top-section">
               <p className="review-text">
-                I can now track my vitals and sleep patterns daily, and Healix has been a game-changer for me it's
+                I can now track my vitals and sleep patterns daily, and Healix has been a game-changer for me it&apos;s
                 helped me build healthier habits!
               </p>
               <div className="reviewer-info">
