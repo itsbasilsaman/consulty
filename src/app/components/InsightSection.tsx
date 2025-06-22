@@ -33,7 +33,7 @@ const InsightSection = () => {
                       <div className="button-area">
                         <div className="button-text">Explore</div>
                         <div className="button-icon-wrapper">
-                          <img
+                          <Image
                             src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
                             alt=""
                             className="button-right-icon"
@@ -52,7 +52,7 @@ const InsightSection = () => {
                   </p>
                   <div className="insight-counter-box">
                     <h3 className="insight-counter-text">78%</h3>
-                    <img
+                    <Image
                       src="/67469be284b048fa58eda575/6748071e6774c9d5172580b6_menu.svg"
                       alt=""
                       className="insight-dot-image"

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const FooterSection = () => {
   return (
@@ -9,11 +10,13 @@ const FooterSection = () => {
           <div data-w-id="5f391e59-60c8-9d8e-6404-450c32b4aef8" className="footer-top-block">
             <div id="w-node-f4fab60c-8493-c494-3a09-03e6223231a3-223231a0" className="footer-left-block">
               <Link href="/" aria-current="page" className="footer-logo-wrapper w-nav-brand w--current">
-                <img
+                <Image
                   loading="lazy"
-                  src="67469be284b048fa58eda575/6746de5b1392b2c3ecb2c7ad_logo-large.svg"
+                  src="/67469be284b048fa58eda575/6746de5b1392b2c3ecb2c7ad_logo-large.svg"
                   alt=""
                   className="footer-logo"
+                  width={120}
+                  height={40}
                 />
               </Link>
             </div>
@@ -57,17 +60,21 @@ const FooterSection = () => {
                 rel="noopener noreferrer"
                 className="social-link w-inline-block"
               >
-                <img
-                  src="67469be284b048fa58eda575/6746e1f9828217d5124d163c_twitter.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1f9828217d5124d163c_twitter.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-normal"
+                  width={24}
+                  height={24}
                 />
-                <img
-                  src="67469be284b048fa58eda575/6746e1f9d7203f19c1da1048_twitter2.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1f9d7203f19c1da1048_twitter2.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-hover"
+                  width={24}
+                  height={24}
                 />
               </a>
               <a
@@ -77,17 +84,21 @@ const FooterSection = () => {
                 rel="noopener noreferrer"
                 className="social-link w-inline-block"
               >
-                <img
-                  src="67469be284b048fa58eda575/6746e1f9b7223f2b93b0b888_facebook.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1f9b7223f2b93b0b888_facebook.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-normal"
+                  width={24}
+                  height={24}
                 />
-                <img
-                  src="67469be284b048fa58eda575/6746e1f99f13703937b7636d_facebook2.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1f99f13703937b7636d_facebook2.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-hover"
+                  width={24}
+                  height={24}
                 />
               </a>
               <a
@@ -97,17 +108,21 @@ const FooterSection = () => {
                 rel="noopener noreferrer"
                 className="social-link w-inline-block"
               >
-                <img
-                  src="67469be284b048fa58eda575/6746e1f92e3bc56134e6bde0_linkedin.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1f92e3bc56134e6bde0_linkedin.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-normal"
+                  width={24}
+                  height={24}
                 />
-                <img
-                  src="67469be284b048fa58eda575/6746e1fa8b3edfa8d0693b29_linkedin2.svg"
+                <Image
+                  src="/67469be284b048fa58eda575/6746e1fa8b3edfa8d0693b29_linkedin2.svg"
                   loading="lazy"
                   alt=""
                   className="footer-icon-hover"
+                  width={24}
+                  height={24}
                 />
               </a>
             </div>
