@@ -117,7 +117,7 @@ export default function BenefitsSection() {
                   <p className="tag-item-text">Fitness</p>
                 </div>
               </div>
-              <img
+              <Image
                 src="/67469be284b048fa58eda575/674826c9b9cd09200f7a69a8_img-2.png"
                 alt=""
                 className="card-bg-image"

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const CtaSection = () => {
   return (
@@ -25,11 +26,12 @@ const CtaSection = () => {
               <div className="button-area">
                 <div className="button-text">Book your appointment</div>
                 <div className="button-icon-wrapper">
-                  <img
-                    src="67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
-                    loading="lazy"
+                  <Image
+                    src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
                     alt=""
                     className="button-right-icon"
+                    width={24}
+                    height={24}
                   />
                 </div>
               </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -150,11 +151,12 @@ export default function ContactSection() {
                       className="submit-button button w-button flex items-center gap-2 hover:gap-3 transition-all duration-300 transform hover:scale-[1.02] active:scale-95"
                     >
                       Send your message
-                      <img
+                      <Image
                         src="/arrow-right.svg"
-                        loading="lazy"
                         alt=""
                         className="submit-button-icon"
+                        width={24}
+                        height={24}
                       />
                     </button>
                   </div>
