@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HowItWorks = () => {
   return (
@@ -28,11 +29,12 @@ const HowItWorks = () => {
                   <div className="button-area">
                     <div className="button-text">Explore</div>
                     <div className="button-icon-wrapper">
-                      <img
-                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg" 
-                        loading="lazy"
-                        alt="" 
-                        className="button-right-icon" 
+                      <Image
+                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
+                        width={24}
+                        height={24}
+                        alt=""
+                        className="button-right-icon"
                       />
                     </div>
                   </div>
@@ -58,11 +60,12 @@ const HowItWorks = () => {
                   <div className="button-area">
                     <div className="button-text">Explore</div>
                     <div className="button-icon-wrapper">
-                      <img
-                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg" 
-                        loading="lazy"
-                        alt="" 
-                        className="button-right-icon" 
+                      <Image
+                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
+                        width={24}
+                        height={24}
+                        alt=""
+                        className="button-right-icon"
                       />
                     </div>
                   </div>
@@ -88,11 +91,12 @@ const HowItWorks = () => {
                   <div className="button-area">
                     <div className="button-text">Explore</div>
                     <div className="button-icon-wrapper">
-                      <img
-                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg" 
-                        loading="lazy"
-                        alt="" 
-                        className="button-right-icon" 
+                      <Image
+                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
+                        width={24}
+                        height={24}
+                        alt=""
+                        className="button-right-icon"
                       />
                     </div>
                   </div>

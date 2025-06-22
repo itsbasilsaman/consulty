@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Pricing = () => {
   return (
@@ -71,9 +72,10 @@ const Pricing = () => {
                       </div>
                     </div>
                     <Link href="contact.html" className="pricing-button w-inline-block">
-                      <img
-                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                        loading="lazy" 
+                      <Image
+                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                        width={24}
+                        height={24}
                         alt=""
                       />
                     </Link>
@@ -122,9 +124,10 @@ const Pricing = () => {
                       </div>
                     </div>
                     <Link href="contact.html" className="pricing-button w-inline-block">
-                      <img
-                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                        loading="lazy" 
+                      <Image
+                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                        width={24}
+                        height={24}
                         alt=""
                       />
                     </Link>
@@ -170,9 +173,10 @@ const Pricing = () => {
                       </div>
                     </div>
                     <Link href="contact.html" className="pricing-button w-inline-block">
-                      <img
-                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                        loading="lazy" 
+                      <Image
+                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                        width={24}
+                        height={24}
                         alt=""
                       />
                     </Link>
@@ -221,9 +225,10 @@ const Pricing = () => {
                         </div>
                       </div>
                       <Link href="contact.html" className="pricing-button w-inline-block">
-                        <img
-                          src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                          loading="lazy"
+                        <Image
+                          src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                          width={24}
+                          height={24}
                           alt=""
                         />
                       </Link>
@@ -273,9 +278,10 @@ const Pricing = () => {
                       </div>
                     </div>
                     <Link href="contact.html" className="pricing-button w-inline-block">
-                      <img
-                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                        loading="lazy" 
+                      <Image
+                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                        width={24}
+                        height={24}
                         alt=""
                       />
                     </Link>
@@ -321,9 +327,10 @@ const Pricing = () => {
                       </div>
                     </div>
                     <Link href="contact.html" className="pricing-button w-inline-block">
-                      <img
-                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg" 
-                        loading="lazy" 
+                      <Image
+                        src="/67469be284b048fa58eda575/6755df7c04659fb43ff8445c_arrow-right.svg"
+                        width={24}
+                        height={24}
                         alt=""
                       />
                     </Link>

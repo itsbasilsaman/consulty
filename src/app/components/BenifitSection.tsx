@@ -1,5 +1,7 @@
 "use client";
 
+import Image from 'next/image';
+
 export default function BenefitsSection() {
   return (
     <section className="benefits-section section-padding-sm remove-bottom-padding">
@@ -28,11 +30,12 @@ export default function BenefitsSection() {
                 <div className="button-area">
                   <div className="button-text">Get Started For Free</div>
                   <div className="button-icon-wrapper">
-                    <img
-                      src="67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
-                      loading="lazy"
+                    <Image
+                      src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
                       alt=""
                       className="button-right-icon"
+                      width={24}
+                      height={24}
                     />
                   </div>
                 </div>
@@ -56,11 +59,12 @@ export default function BenefitsSection() {
                   <div className="button-area">
                     <div className="button-text">Explore</div>
                     <div className="button-icon-wrapper">
-                      <img
-                        src="67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
-                        loading="lazy"
+                      <Image
+                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
                         alt=""
                         className="button-right-icon"
+                        width={24}
+                        height={24}
                       />
                     </div>
                   </div>
@@ -133,11 +137,12 @@ export default function BenefitsSection() {
                   <div className="button-area">
                     <div className="button-text">Explore</div>
                     <div className="button-icon-wrapper">
-                      <img
-                        src="67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
-                        loading="lazy"
+                      <Image
+                        src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
                         alt=""
                         className="button-right-icon"
+                        width={24}
+                        height={24}
                       />
                     </div>
                   </div>

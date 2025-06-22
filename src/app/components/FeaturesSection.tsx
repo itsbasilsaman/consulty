@@ -1,5 +1,7 @@
 "use client";
 
+import Image from 'next/image';
+
 export default function FeaturesSection() {
   return (
     <section className="features-section section-padding-sm remove-bottom-padding">
@@ -20,9 +22,10 @@ export default function FeaturesSection() {
                   <p className="feature-card-para">Healix encourages users to stay active.<br /></p>
                 </div>
                 <div className="feature-card-image _1">
-                  <img
-                    src="67469be284b048fa58eda575/674c20018ab05d1879bdf852_img-13.png"
-                    loading="lazy"
+                  <Image
+                    src="/67469be284b048fa58eda575/674c20018ab05d1879bdf852_img-13.png"
+                    width={410}
+                    height={410}
                     alt=""
                     className="feature-card-single-image"
                   />
@@ -34,13 +37,13 @@ export default function FeaturesSection() {
                   <p className="feature-card-para">Healix inspires users to maintain activity<br /></p>
                 </div>
                 <div className="feature-card-image _2">
-                  <img
-                    src="67469be284b048fa58eda575/674c23c68dfb7342930d3401_img-14.png"
-                    loading="lazy"
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, (max-width: 991px) 422.609375px, 38vw"
-                    srcSet="67469be284b048fa58eda575/674c23c68dfb7342930d3401_img-14-p-500.png 500w, 67469be284b048fa58eda575/674c23c68dfb7342930d3401_img-14-p-800.png 800w, 67469be284b048fa58eda575/674c23c68dfb7342930d3401_img-14.png 968w"
+                  <Image
+                    src="/67469be284b048fa58eda575/674c23c68dfb7342930d3401_img-14.png"
+                    width={968}
+                    height={968}
                     alt=""
                     className="feature-card-single-image _2"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, (max-width: 991px) 422.609375px, 38vw"
                   />
                 </div>
               </div>
@@ -53,17 +56,19 @@ export default function FeaturesSection() {
                 </div>
                 <div className="feature-card-image-group _1">
                   <div className="feature-card-image _3">
-                    <img
-                      src="67469be284b048fa58eda575/6755b6b3c9989275ef879c8e_img-13.png"
-                      loading="lazy"
+                    <Image
+                      src="/67469be284b048fa58eda575/6755b6b3c9989275ef879c8e_img-13.png"
+                      width={410}
+                      height={410}
                       alt=""
                       className="feature-card-single-image"
                     />
                   </div>
                   <div className="feature-card-image _4">
-                    <img
-                      src="67469be284b048fa58eda575/6755b6b24ef606132010d23e_img-16.png"
-                      loading="lazy"
+                    <Image
+                      src="/67469be284b048fa58eda575/6755b6b24ef606132010d23e_img-16.png"
+                      width={410}
+                      height={410}
                       alt=""
                       className="feature-card-single-image"
                     />
@@ -76,9 +81,10 @@ export default function FeaturesSection() {
                   <p className="feature-card-para">Healix helps users embrace an active life.<br /></p>
                 </div>
                 <div className="feature-card-image _5">
-                  <img
-                    src="67469be284b048fa58eda575/6755b74bd95765831746174b_img-17.png"
-                    loading="lazy"
+                  <Image
+                    src="/67469be284b048fa58eda575/6755b74bd95765831746174b_img-17.png"
+                    width={410}
+                    height={410}
                     alt=""
                     className="feature-card-single-image _3"
                   />
