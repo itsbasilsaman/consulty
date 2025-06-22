@@ -71,7 +71,7 @@ export default function ContactSection() {
               className="contact-inner-left-block transition-all duration-500 ease-out translate-y-6 opacity-0"
             >
               <h1 className="banner-section-title hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 transition-all duration-300">
-                We're here to help you on your journey.
+                We&apos;re here to help you on your journey.
               </h1>
               <p className="section-title-p contact group">
                 Want to learn more about Healix, our support team is ready to help.
@@ -224,7 +224,7 @@ export default function ContactSection() {
                   <span className="block w-0 group-hover:w-full h-0.5 bg-primary-500 transition-all duration-300 mt-1"></span>
                 </h3>
                 <p className="hover:text-gray-700 transition-colors duration-300">
-                  We're here to help! Whether you have a question about TaskHub's features, need assistance.
+                  We&apos;re here to help! Whether you have a question about TaskHub&apos;s features, need assistance.
                 </p>
               </div>
               <div className="contact-list-wrapper mt-6 space-y-4">

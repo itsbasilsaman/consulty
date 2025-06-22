@@ -51,7 +51,7 @@ const FaqSection = () => {
         <div className="faq-wrapper">
           <div className="faq-left-block">
             <h2>Frequently asked questions<br /></h2>
-            <p>For any unanswered questions, reach out to our support team via email. We'll respond as soon as
+            <p>For any unanswered questions, reach out to our support team via email. We&apos;ll respond as soon as
               possible to assist you.<br /></p>
           </div>
           <div className="faq-list-wrapper">
