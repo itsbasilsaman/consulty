@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const InsightSection = () => {
   return (
@@ -16,11 +17,12 @@ const InsightSection = () => {
               <div className="insight-card">
                 <div className="insight-card-top-block">
                   <div className="insight-card-logo-button">
-                    <img
-                      src="/67469be284b048fa58eda575/67480601e163925393a93976_insight.svg" 
-                      loading="lazy" 
-                      alt="" 
+                    <Image
+                      src="/67469be284b048fa58eda575/67480601e163925393a93976_insight.svg"
+                      alt=""
                       className="insight-card-logo"
+                      width={32}
+                      height={32}
                     />
                     <Link 
                       data-wf--button--variant="border-xs"
@@ -33,9 +35,10 @@ const InsightSection = () => {
                         <div className="button-icon-wrapper">
                           <img
                             src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
-                            loading="lazy" 
-                            alt="" 
-                            className="button-right-icon" 
+                            alt=""
+                            className="button-right-icon"
+                            width={24}
+                            height={24}
                           />
                         </div>
                       </div>
@@ -50,10 +53,11 @@ const InsightSection = () => {
                   <div className="insight-counter-box">
                     <h3 className="insight-counter-text">78%</h3>
                     <img
-                      src="/67469be284b048fa58eda575/6748071e6774c9d5172580b6_menu.svg" 
-                      loading="lazy" 
+                      src="/67469be284b048fa58eda575/6748071e6774c9d5172580b6_menu.svg"
                       alt=""
                       className="insight-dot-image"
+                      width={16}
+                      height={16}
                     />
                   </div>
                 </div>

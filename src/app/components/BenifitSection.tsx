@@ -74,10 +74,11 @@ export default function BenefitsSection() {
                 <p className="card-bottom-p-text">Healix encourages users to stay active through custom goals.</p>
                 <div className="card-icon-counter">
                   <div className="card-icon-box">
-                    <img
-                      src="67469be284b048fa58eda575/674824d84cbd5773dc9de322_union2.svg"
-                      loading="lazy"
+                    <Image
+                      src="/67469be284b048fa58eda575/674824d84cbd5773dc9de322_union2.svg"
                       alt=""
+                      width={32}
+                      height={32}
                     />
                   </div>
                   <h2 className="card-counter-text">250k+</h2>
@@ -117,12 +118,11 @@ export default function BenefitsSection() {
                 </div>
               </div>
               <img
-                src="67469be284b048fa58eda575/674826c9b9cd09200f7a69a8_img-2.png"
-                loading="lazy"
-                sizes="(max-width: 479px) 100vw, (max-width: 767px) 410px, (max-width: 991px) 45vw, 24vw"
-                srcSet="67469be284b048fa58eda575/674826c9b9cd09200f7a69a8_img-2-p-500.png 500w, 67469be284b048fa58eda575/674826c9b9cd09200f7a69a8_img-2.png 820w"
+                src="/67469be284b048fa58eda575/674826c9b9cd09200f7a69a8_img-2.png"
                 alt=""
                 className="card-bg-image"
+                width={820}
+                height={500}
               />
             </div>
             <div className="card-item benefits">
@@ -152,10 +152,11 @@ export default function BenefitsSection() {
                 <p className="card-bottom-p-text">Healix inspires you to keep moving with tailored objectives.</p>
                 <div className="card-icon-counter">
                   <div className="card-icon-box">
-                    <img
-                      src="67469be284b048fa58eda575/6748259f69f3e06e062fd80b_subtract.svg"
-                      loading="lazy"
+                    <Image
+                      src="/67469be284b048fa58eda575/6748259f69f3e06e062fd80b_subtract.svg"
                       alt=""
+                      width={32}
+                      height={32}
                     />
                   </div>
                   <h2 className="card-counter-text">78.00%</h2>

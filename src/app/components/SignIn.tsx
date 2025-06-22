@@ -103,7 +103,7 @@ const SignInSection = () => {
             <div className="form-card-top-section">
               <p className="review-text">
                 I can now track my vitals and sleep patterns daily, and Healix has been a
-                game-changer for me it's helped me build healthier habits!
+                game-changer for me it&apos;s helped me build healthier habits!
               </p>
               <div className="reviewer-info">
                 <Image
