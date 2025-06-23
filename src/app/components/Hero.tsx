@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section pt-2">
       <div className="hero-wrapper">
         <div className="hero-bg"></div>
         <div className="hero-content-wrappper">

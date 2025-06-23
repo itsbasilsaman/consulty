@@ -1,15 +1,31 @@
 @import "tailwindcss";
 @import "@fontsource/urbanist/index.css";
 
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-family: 'Urbanist', sans-serif;
+/* Theme variables */
+:root {
+  --background: #fff;
+  --text: #111;
+  --primary: #0070f3;
+  /* Add more variables as needed */
+}
+
+body.light {
+  --background: #fff;
+  --text: #111;
+}
+
+body.dark {
+  --background: #18181b;
+  --text: #fafafa;
 }
 
 body {
+  background: var(--background);
+  color: var(--text);
+  transition: background 0.2s, color 0.2s;
   margin: 0;
   font-family: 'Urbanist', sans-serif;
+  padding-top: 90px;
 }
 
 article,
@@ -3705,7 +3721,10 @@ img {
   background-color: var(--color--neutral-01);
   width: 100%;
   padding-top: 22px;
-  padding-bottom: 22px
+  padding-bottom: 22px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .navbar {

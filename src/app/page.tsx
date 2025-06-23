@@ -10,7 +10,6 @@ import FaqSection from "./components/Faq";
 import CounterSection from "./components/Counter";
 import HealthMonitoringHero from "./components/MonitoringHero";
 import TestimonialSection from "./components/TestimonialSection";
-import AppointmentSection from "./components/AppoinmentSection";
 import ProductSection from "./components/Product";
 import ProductDetail from "./components/ProductDetail";
 import ContactSection from "./components/Contact";
@@ -24,6 +23,8 @@ export default function Home() {
   
      <Hero/>
      <BenefitsSection/>
+     <CounterSection/>
+     <HealthMonitoringHero/>
      <FeaturesSection/>
      <TipsSection/>
     <HowItWorks/>
@@ -31,10 +32,9 @@ export default function Home() {
     <Pricing/>
     <InsightSection/>
     <FaqSection/>
-    <CounterSection/>
-    <HealthMonitoringHero/>
+   
     <TestimonialSection/>
-    <AppointmentSection/>
+     
     <ProductSection/>
     <ProductDetail/>
     <ContactSection/>

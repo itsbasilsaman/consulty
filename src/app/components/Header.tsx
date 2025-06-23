@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { useThemeQuery, useToggleThemeMutation } from '../theme-query';
 
 export default function Header() {
+
+  const {data: theme} = useThemeQuery();
+  const toggleThemeMutation = useToggleThemeMutation();
+
   return (
     <div className="header">
       <div className="w-layout-blockcontainer container w-container">
@@ -29,71 +34,42 @@ export default function Header() {
               </Link>
               <nav role="navigation" className="nav-menu-wrapper w-nav-menu">
                 <ul role="list" className="nav-menu w-list-unstyled">
-                  <li data-w-id="54e4ff0d-8f8a-6ceb-1ee7-8ab6c7be1e2f" className="dropdown-list-item">
-                    <div data-hover="true" data-delay="0" className="nav-dropdown w-dropdown">
-                      <div className="nav-dropdown-toggle w-dropdown-toggle">
-                        <div className="nav-dropdown-icon w-icon-dropdown-toggle"></div>
-                        <div className="menu-dropdown-text">all pages</div>
-                      </div>
-                      <nav className="nav-dropdown-list w-dropdown-list">
-                        <div className="mega-menu">
-                          <div className="menu-item-list">
-                            <div className="menu-items">
-                              <Link href="/" className="nav-dropdown-link w-dropdown-link w--current">home</Link>
-                              <Link href="/pricing" className="nav-dropdown-link w-dropdown-link">Pricing</Link>
-                              <Link href="/about-us" className="nav-dropdown-link w-dropdown-link">about</Link>
-                              <Link href="/features" className="nav-dropdown-link w-dropdown-link">Features</Link>
-                              <Link href="/testimonials" className="nav-dropdown-link w-dropdown-link">testimonials</Link>
-                              <Link href="/appointment" className="nav-dropdown-link w-dropdown-link">appointment</Link>
-                            </div>
-                            <div className="menu-items">
-                              <Link href="/blog" className="nav-dropdown-link w-dropdown-link">Blog</Link>
-                              <Link href="/blog/using-healix-to-manage-your-diet" className="nav-dropdown-link w-dropdown-link">Blog Details</Link>
-                              <Link href="/product" className="nav-dropdown-link w-dropdown-link">Product</Link>
-                              <Link href="/product/templateflow-wall-canvas" className="nav-dropdown-link w-dropdown-link">Product Details</Link>
-                              <Link href="/contact" className="nav-dropdown-link w-dropdown-link">contact</Link>
-                              <Link href="/changelog" className="nav-dropdown-link w-dropdown-link">changelog</Link>
-                            </div>
-                            <div className="menu-items">
-                              <Link href="/privacy-policy" className="nav-dropdown-link w-dropdown-link">Privacy</Link>
-                              <Link href="/terms" className="nav-dropdown-link w-dropdown-link">Terms</Link>
-                              <Link href="/sign-in" className="nav-dropdown-link w-dropdown-link">sign in</Link>
-                              <Link href="/sign-up" className="nav-dropdown-link w-dropdown-link">sign up</Link>
-                              <Link href="/license" className="nav-dropdown-link w-dropdown-link">License</Link>
-                              <Link href="/styleguide" className="nav-dropdown-link w-dropdown-link">Styleguide</Link>
-                              <Link href="/404" className="nav-dropdown-link w-dropdown-link">404</Link>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </li>
-                  <li className="list-item"><Link href="/features" className="nav-link">features</Link></li>
-                  <li className="list-item"><Link href="/pricing" className="nav-link">pricing</Link></li>
-                  <li className="list-item"><Link href="/testimonials" className="nav-link">reviews</Link></li>
+                   
+                  <li className="list-item"><Link href="/features" className="nav-link">Talk to Doctor</Link></li>
+                  <li className="list-item"><Link href="/features" className="nav-link">Labtest & Packages</Link></li>
+                  <li className="list-item"><Link href="/pricing" className="nav-link">Health Tips </Link></li>
+                  <li className="list-item"><Link href="/testimonials" className="nav-link">Offers</Link></li>
                 </ul>
               </nav>
             </div>
             <div className="navbar-button">
-              <Link 
-                data-wf--button--variant="link" 
-                data-w-id="6140ac12-e782-d67b-bc27-3a3036803ae7"
-                href="/sign-in" 
-                className="button w-variant-1d37e4ee-5ab8-1fee-b0e2-2cebd93e548b w-inline-block"
-              >
-                <div className="button-area">
-                  <div className="button-text w-variant-1d37e4ee-5ab8-1fee-b0e2-2cebd93e548b">login</div>
-                  <div className="button-icon-wrapper">
-                    <Image 
-                      src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg" 
-                      alt=""
-                      width={16}
-                      height={16}
-                      className="button-right-icon"
-                    />
-                  </div>
-                </div>
-              </Link>
+            <button
+          onClick={() => toggleThemeMutation.mutate(theme)}
+          aria-label="Toggle light/dark mode"
+          className="mr-4 p-2 rounded-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-yellow-500 dark:text-gray-200 transition"
+        >
+          {theme === 'light' ? (
+            // Sun icon
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="5" />
+              <g stroke="currentColor" strokeWidth="2">
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </g>
+            </svg>
+          ) : (
+            // Moon icon
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+            </svg>
+          )}
+        </button>
               <Link 
                 data-wf--button--variant="primary-sm" 
                 data-w-id="6140ac12-e782-d67b-bc27-3a3036803ae7"
@@ -101,7 +77,7 @@ export default function Header() {
                 className="button w-inline-block"
               >
                 <div className="button-area">
-                  <div className="button-text">Get Started For Free</div>
+                  <div className="button-text">Login / Signup</div>
                   <div className="button-icon-wrapper">
                     <Image 
                       src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg" 

@@ -20,7 +20,9 @@ const HealthMonitoringHero = () => {
                 className="button w-variant-ac08d2a5-a49c-f69a-dbbf-12535f988a9f w-inline-block"
               >
                 <div className="button-area">
+                  <Link href={'/appoinment'}>
                   <div className="button-text">Book Your Appoinment</div>
+                  </Link>
                   <div className="button-icon-wrapper">
                     <Image
                       src="/67469be284b048fa58eda575/67469be284b048fa58edab3a_cheveron-right-white.svg"
