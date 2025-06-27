@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 const SignUpSection = () => {
   return (
     <section className="sign-in-up-section">
@@ -161,13 +162,8 @@ const SignUpSection = () => {
           </div>
         </div>
       </div>
-      <p className="text-center text-gray-500 text-sm mt-4">
-        Already have an account?{' '}
-        <a href="/sign-in" className="text-primary-600 hover:underline">Sign in</a>
-      </p>
-      <p className="text-xs text-gray-400 mt-4">
-        By signing up, you agree to TaskHub&apos;s Terms of Service and Privacy Policy.
-      </p>
+      
+     
     </section>
   );
 };

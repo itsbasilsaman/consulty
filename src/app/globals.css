@@ -16,16 +16,19 @@ body.light {
 
 body.dark {
   --background: #18181b;
-  --text: #fafafa;
+  --text: #fff;
 }
 
 body {
-  background: var(--background);
-  color: var(--text);
+  background: var(--background) !important;
+  color: var(--text) !important;
   transition: background 0.2s, color 0.2s;
   margin: 0;
   font-family: 'Urbanist', sans-serif;
-  padding-top: 90px;
+}
+
+body.dark, body.dark * {
+  color: #fff !important;
 }
 
 article,
@@ -277,13 +280,12 @@ html {
 }
 
 body {
-  color: #333;
-  background-color: #fff;
-  min-height: 100%;
+  background: var(--background) !important;
+  color: var(--text) !important;
+  transition: background 0.2s, color 0.2s;
   margin: 0;
   font-family: 'Urbanist', sans-serif;
-  font-size: 14px;
-  line-height: 20px
+ 
 }
 
 img {
@@ -2211,7 +2213,7 @@ textarea.w-select {
   --color--transparent: #fff0;
   --color--neutral-05: black;
   --size--global-section-padding-sm: 120px;
-  --color--neutral-02: #f0f5f6;
+  --color--neutral-02: #A6C1CA;
   --transparentt\<deleted\|variable-347810e8-efd3-c53d-6c2d-d8602d6a7e1e\>: #fff0;
   --transparentt\<deleted\|variable-e4e550de-db9a-1228-7153-2894fac43f91\>: #fff0;
   --neutral-011\<deleted\|variable-44dc2f55-22a8-4967-c04b-d36cf07608c6\>: white;
@@ -7130,8 +7132,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  padding-top: 132px;
-  padding-bottom: 132px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex
 }
 

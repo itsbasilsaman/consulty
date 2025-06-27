@@ -33,8 +33,8 @@ export function useToggleThemeMutation() {
         const next = current === 'light' ? 'dark' : 'light';
         if (typeof window !== 'undefined') {
           localStorage.setItem(THEME_KEY, next);
-          document.documentElement.classList.remove('light', 'dark');
-          document.documentElement.classList.add(next);
+          document.body.classList.remove('light', 'dark');
+          document.body.classList.add(next);
         }
         return next;
       },

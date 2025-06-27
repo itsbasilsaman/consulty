@@ -8,7 +8,7 @@ export default function Header() {
   const toggleThemeMutation = useToggleThemeMutation();
 
   return (
-    <div className="header">
+    <div className="header" style={{ background: 'var(--background)', color: 'var(--text)' }}>
       <div className="w-layout-blockcontainer container w-container">
         <div 
           data-w-id="be61f925-d3a9-be49-f008-b802122495b1" 
@@ -35,10 +35,10 @@ export default function Header() {
               <nav role="navigation" className="nav-menu-wrapper w-nav-menu">
                 <ul role="list" className="nav-menu w-list-unstyled">
                    
-                  <li className="list-item"><Link href="/features" className="nav-link">Talk to Doctor</Link></li>
-                  <li className="list-item"><Link href="/features" className="nav-link">Labtest & Packages</Link></li>
-                  <li className="list-item"><Link href="/pricing" className="nav-link">Health Tips </Link></li>
-                  <li className="list-item"><Link href="/testimonials" className="nav-link">Offers</Link></li>
+                  <li className="list-item"><Link href="/consult" className="nav-link">Talk to Doctor</Link></li>
+                  <li className="list-item"><Link href="/labtest-packages" className="nav-link">Labtest & Packages</Link></li>
+                  <li className="list-item"><Link href="/health-tips" className="nav-link">Health Tips </Link></li>
+                  <li className="list-item"><Link href="/offers" className="nav-link">Offers</Link></li>
                 </ul>
               </nav>
             </div>
@@ -73,7 +73,7 @@ export default function Header() {
               <Link 
                 data-wf--button--variant="primary-sm" 
                 data-w-id="6140ac12-e782-d67b-bc27-3a3036803ae7"
-                href="/appointment" 
+                href="/signin" 
                 className="button w-inline-block"
               >
                 <div className="button-area">

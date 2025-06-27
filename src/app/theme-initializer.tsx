@@ -7,8 +7,8 @@ export default function ThemeInitializer() {
   const { data: theme } = useThemeQuery();
   useEffect(() => {
     if (theme) {
-      document.documentElement.classList.remove("light", "dark");
-      document.documentElement.classList.add(theme);
+      document.body.classList.remove("light", "dark");
+      document.body.classList.add(theme);
     }
   }, [theme]);
   return null;
